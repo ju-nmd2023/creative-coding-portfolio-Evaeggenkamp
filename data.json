@@ -1,7 +1,42 @@
 [
   {
     "file": "experiments/example.js",
-    "name": "Name of your experiment",
+    "name": "Cykel",
     "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview."
+  },
+  {
+    "file": "experiments/artwork35.js",
+    "name": "Artwork 35",
+    "description": "Some description"
+  },
+  {
+    "name": "Artwork 34",
+    "description": "Some description",
+    "file": "experiments/artwork34.js"
+  },
+  {
+    "name": "Artwork2 ",
+    "description": "Some description",
+    "file": "experiments/artwork2.js"
+  },
+  {
+    "name": "Artwork3",
+    "description": "Some description",
+    "file": "experiments/artwork3.js"
+  },
+  {
+    "name": "example2",
+    "description": "Some description",
+    "file": "experiments/example2.js"
+  },
+  {
+    "name": "example3",
+    "description": "Some description",
+    "file": "experiments/example3.js"
+  },
+  {
+    "name": "week2",
+    "description": "Some description",
+    "file": "experiments/week2.js"
   }
 ]

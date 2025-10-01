@@ -9,14 +9,13 @@ function getRandomValue(pos, variance) {
 }
 
 function drawLayers(x, y, size, layers) {
-  const variance = size / 5;
+  const variance = size / 20;
   noFill();
   for (let i = 0; i < layers; i++) {
     if (Math.random() > 0.8) {
       continue;
     }
     stroke(random(255), random(255), random(255));
-    strokeWeight(random(1, 5));
     const s = (size / layers) * i;
     const half = s / 2;
     beginShape();
