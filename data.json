@@ -1,42 +1,47 @@
 [
   {
+    "name": "Vibrant Square Grid",
     "file": "experiments/example.js",
-    "name": "Cykel",
-    "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview."
+    "description": "A grid of colorful, layered squares with shifting lines and thickness. Randomness in color and stroke gives each square a lively, hand-drawn energy."
   },
   {
-    "file": "experiments/artwork35.js",
-    "name": "Artwork 35",
-    "description": "Some description"
+    "name": "Sound Orbit",
+    "description": "Colorful ellipses orbit and mirror each other in smooth, wave-like motion. Random tones play on click, blending visual rhythm with generative sound.",
+    "file": "experiments/artwork35.js"
   },
   {
-    "name": "Artwork 34",
-    "description": "Some description",
+    "name": "Bouncing Color Orbs",
+    "description": "Ellipses bounce across the canvas, mirrored in all corners. Random sizes and colors create a lively, dynamic pattern that responds subtly to motion.",
     "file": "experiments/artwork34.js"
   },
   {
-    "name": "Artwork2 ",
-    "description": "Some description",
+    "name": "Layered Mountains",
+    "description": "A series of layered, mountainous shapes created with noise. Each layer has subtle transparency, giving depth and a soft, atmospheric effect.",
     "file": "experiments/artwork2.js"
   },
   {
-    "name": "Artwork3",
-    "description": "Some description",
+    "name": "Flowing Noise Waves",
+    "description": "Layers of wavy, flowing lines created with noise and subtle randomness. The gradient colors and gentle motion evoke a calm, organic rhythm across the canvas.",
     "file": "experiments/artwork3.js"
   },
   {
-    "name": "example2",
-    "description": "Some description",
+    "name": "Wobbly Squares Grid",
+    "description": "A grid of layered squares with slightly offset corners, creating a subtle, irregular effect. The randomness adds a playful, dynamic feel to a structured layout.",
     "file": "experiments/example2.js"
   },
   {
-    "name": "example3",
-    "description": "Some description",
+    "name": "Layered Squares Grid",
+    "description": "A grid of layered squares with slightly randomized vertices, creating a colorful, wobbly effect. Each square varies subtly, blending structure with playful irregularity. ",
     "file": "experiments/example3.js"
   },
   {
-    "name": "week2",
-    "description": "Some description",
+    "name": "Scribbled Circles Grid",
+    "description": "A grid of circles filled with moving points, creating a subtle, scribbled texture. Some circles are black, others soft colors, blending structure with organic motion.",
     "file": "experiments/week2.js"
+  },
+  {
+    "name": "Midnight Currents",
+    "description": "Thousands of blue particles flow through a noise-generated field, forming shifting, wave-like trails on a dark background. A digital simulation of motion and calm.",
+    "file": "experiments/flowfeild.js"
   }
 ]

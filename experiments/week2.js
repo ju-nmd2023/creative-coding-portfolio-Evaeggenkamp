@@ -1,10 +1,10 @@
 let circles = [];
-let cols = 10;
-let rows = 12;
+let cols = 60;
+let rows = 40;
 let circleSize = 80;
 
 function setup() {
-  createCanvas(600, 700);
+  createCanvas(4000, 1000);
   background(100, 80, 100);
   noFill();
 
@@ -23,11 +23,18 @@ function draw() {
     c.show();
   }
 }
+
 class ScribbleCircle {
   constructor(x, y, r, numPoints) {
     this.pos = createVector(x, y);
     this.r = r;
     this.walkers = [];
+
+    if (random() < 0.5) {
+      this.col = color(0, 30);
+    } else {
+      this.col = color(random(255), random(255), random(255), 80);
+    }
 
     for (let i = 0; i < numPoints; i++) {
       let angle = random(TWO_PI);
@@ -50,6 +57,7 @@ class ScribbleCircle {
       }
     }
   }
+
   show() {
     stroke(0, 30);
     for (let w of this.walkers) {
